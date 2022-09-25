@@ -57,7 +57,7 @@ main ul { list-style-type: none; }
 main ul li { margin-bottom: 0.5em; }
 main ul li::before { display:inline-block; 
 	
-	  content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNSIgY3k9IjUiIHI9IjQuNSIgc3Ryb2tlPSIjRjI2NjNFIi8+Cjwvc3ZnPgo=");
+	  content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNSIgY3k9IjUiIHI9IjQuNSIgc3Ryb2tlPSIjMTM4RUNFIi8+Cjwvc3ZnPg==");
 	   background-size: 10px 10px;
 	   height: 10px;
 	   width: 10px;
@@ -135,8 +135,8 @@ legend { float: none; font-size: inherit; }
 	.contentLeadIn h1 { font-size: 1.85em; }
 }
 /* === CAPABILITIES === */
-.no-webp .capabilitiesCap { background-image: url("/images/capabilities-banner.jpeg"); }
-.webp .capabilitiesCap { background-image: url("/images/capabilities-banner.webp"); }
+.no-webp .capabilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .capabilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 #v-pills-tab { min-width: 23.3em; }
 #v-pills-tab .nav-link { background-color: rgba(216,226,231,0.35); text-align: left; color: var(--darkTeal);  font-weight: 500; }
 	#v-pills-tab .nav-link.active,
@@ -165,7 +165,7 @@ legend { float: none; font-size: inherit; }
 	.capCallout > .row { align-items: center; }
 	.capCallout p a { color: var(--darkTeal); font-weight: 500; text-decoration: none; transition: all 0.25s ease; }
 	.capCallout p a:hover { text-decoration: underline; color: var(--maincta); }
-.capCalloutIcon { width: 8em; fill:#f2663e; display: block; }
+.capCalloutIcon { fill:#138ECE; display: block; max-width: 8rem; }
 
 
 
@@ -187,8 +187,8 @@ legend { float: none; font-size: inherit; }
 
 
 /* === CERTIFICATIONS === */
-.no-webp .certificationsCap { background-image: url("/images/certifications-banner.jpeg"); }
-.webp .certificationsCap { background-image: url("/images/certifications-banner.webp"); }
+.no-webp .certificationsCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .certificationsCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 .certLists a{ color: var(--darkTeal); font-weight: 500; text-decoration: none; transition: all 0.25s ease; }
 	.certLists a:hover { text-decoration: underline; color: var(--maincta); }
 .certLists h4 { font-weight: 600; font-size: 1.125em; }
@@ -205,22 +205,16 @@ legend { float: none; font-size: inherit; }
 .aboutJoin { background-size: cover;  }
 .aboutJoin h1 { color: #FFF; font-size: 1.875em; }	
 .aboutJoin p { color: #FFF; }	
-.no-webp .aboutJoin { background-image: url("/images/join-team-bg.jpeg"); }
-.no-webp .aboutJoin{ background-image: url("/images/careers-bg.jpeg"); }
-.webp .aboutJoin{ background-image: url("/images/careers-bg.webp"); }
+.no-webp .aboutJoin { background-image: url("https://via.placeholder.com/1800x600/444/666?text=image"); }
+.webp .aboutJoin{ background-image: url("https://via.placeholder.com/1800x600/444/666?text=image"); }
 
 .aboutStaff { position: relative; display: grid; text-decoration: none; background-position: center center; background-size: cover; aspect-ratio: 1; align-content: space-between; transition:all 0.2s ease; background-color: rgb( 3 70 91 / 0 ); }
 .aboutStaff:hover { background-color: rgb( 3 70 91 / .75 ); background-blend-mode: darken; }
 
-.about-greg-r { background-image: url("/images/Greg-Raudenbush.jpg"); }
-.about-mike-e { background-image: url("/images/Mike-Evans.jpg"); }
-.about-andy-o { background-image: url("/images/Andy-Oskam.jpg"); }
-.about-dan-b { background-image: url("/images/Dan-Bailor.jpg"); }
-.about-rich-m { background-image: url("/images/Rich-McKeever.jpg"); }
-.about-bryan-s { background-image: url("/images/Bryan-Snyder.jpg"); }
-.about-joel-v { background-image: url("/images/Joel-Valigorsky.jpg"); }
-.about-shannon-r { background-image: url("/images/Shannon-Ream.jpg"); }
-.about-leigh-z { background-image: url("/images/Leigh-Zerbe.jpg"); }
+.about-greg-r { background-image: url("https://via.placeholder.com/700x700/444/888?text=person"); }
+.about-mike-e { background-image: url("https://via.placeholder.com/700x700/444/888?text=person"); }
+.about-andy-o { background-image: url("https://via.placeholder.com/700x700/444/888?text=person"); }
+.about-dan-b { background-image: url("https://via.placeholder.com/700x700/444/888?text=person"); }
 
 .aboutStaffcta { text-align: right; opacity: 0; transition:all 0.3s ease; }
 	.aboutStaffcta h4 { color:#d8e2e7; font-size: 1.15em; font-weight: 600; }
@@ -232,8 +226,8 @@ legend { float: none; font-size: inherit; }
 .aboutStaff:hover > * { opacity: 1; }
 
 /* === FACILITIES === */
-.no-webp .facilitiesCap { background-image: url("/images/facilities-banner.jpeg"); }
-.webp .facilitiesCap { background-image: url("/images/facilities-banner.webp"); }
+.no-webp .facilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .facilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 
 /* === REQUEST A QUOTE === */
 .no-webp .raqCap { background-image: url("/images/raq-banner.jpeg"); }
@@ -247,20 +241,21 @@ legend { float: none; font-size: inherit; }
 .raqFormTitles { font-size: 1.125em; font-weight: 500; }
 
 /* === CONTACT US === */
-.no-webp .contactCap { background-image: url("/images/contact-banner.jpeg"); }
-.webp .contactCap { background-image: url("/images/contact-banner.webp"); }
+.no-webp .contactCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .contactCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 .contactUsMsg { font-size:1.25em; }
 .calloutHQ { background-color: rgba(216,226,231,0.45); }
 .contactWrapper h2 { font-size: 1.5em; }
 .chqContact { display:grid; grid-template-columns: auto auto; }
 
 /* === CAREERS === */
-.no-webp .careersCap { background-image: url("/images/careers-banner.jpeg"); }
-.webp .careersCap { background-image: url("/images/careers-banner.webp"); }
+.no-webp .careersCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .careersCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 .benefitsList { -webkit-column-count: 2; -webkit-column-gap: 2em; -moz-column-count: 2; -moz-column-gap: 2em; column-count: 2; column-gap: 2em; }
 .careersList { background-color: rgb(216 226 231 / 0.25); }
-.no-webp .afApplication { background-image: url("/images/careers-bg.jpeg"); }
-.webp .afApplication { background-image: url("/images/careers-bg.webp"); }
+.afApplication { background-position: center center; }
+.no-webp .afApplication { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.webp .afApplication { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
 
 .opbtn { display: inline-grid; grid-template-columns: auto 1em; column-gap: 0.8em; align-items: center; }
 .afApplication h1, .afApplication p { color: #FFF; }
