@@ -31,6 +31,9 @@ h5.subTitle { font-size: 1.05em; font-weight: 900; text-transform: uppercase; co
 .navbar-dark .navbar-toggler { color: #FFF; background-color: var(--maincta); }
 .navbar-toggler:focus { box-shadow:none; }
 
+.navbar-nav .nav-item a.btnondark:hover,
+.navbar-nav .nav-item a.btnondark:focus { color:#FFF; }
+
 @media screen and (max-width:992px) {
 	.navbar-nav { background-color: #FFF; }
 	.navbar-nav .nav-item.active a { border-bottom: none; }
