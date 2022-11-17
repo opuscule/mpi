@@ -103,8 +103,8 @@ legend { float: none; font-size: inherit; }
 .webp .homeCap { background-image: url("/images/MP_home.jpg"); }
 
 .twoColE { display: grid; grid-template-columns: 1fr 1fr; }
-.no-webp .tceImg { background-image: url("/images/home-about.jpg"); }
-.webp .tceImg { background-image: url("/images/home-about.webp"); }
+.no-webp .tceImg { background-image: url("/images/MP_Home_About.jpg"); }
+.webp .tceImg { background-image: url("/images/MP_Home_About.webp"); }
 .tceImg { background-size: cover; background-position: center center; }
 .tceContent { background-color: var(--darkTeal); padding: 5em 12%; }
 	.tceContent h1 { color: #fff; }
