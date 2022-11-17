@@ -103,8 +103,8 @@ legend { float: none; font-size: inherit; }
 .webp .homeCap { background-image: url("/images/MP_home.jpg"); }
 
 .twoColE { display: grid; grid-template-columns: 1fr 1fr; }
-.no-webp .tceImg { background-image: url("https://via.placeholder.com/900/848484/ededed?text=placeholder"); }
-.webp .tceImg { background-image: url("https://via.placeholder.com/900/848484/ededed?text=placeholder"); }
+.no-webp .tceImg { background-image: url("/images/home-about.jpg"); }
+.webp .tceImg { background-image: url("/images/home-about.webp"); }
 .tceImg { background-size: cover; background-position: center center; }
 .tceContent { background-color: var(--darkTeal); padding: 5em 12%; }
 	.tceContent h1 { color: #fff; }
@@ -135,8 +135,8 @@ legend { float: none; font-size: inherit; }
 	.contentLeadIn h1 { font-size: 1.85em; }
 }
 /* === CAPABILITIES === */
-.no-webp .capabilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .capabilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .capabilitiesCap { background-image: url("/images/MP_Capabilities.jpg"); }
+.webp .capabilitiesCap { background-image: url("/images/MP_Capabilities.webp"); }
 #v-pills-tab { min-width: 23.3em; }
 #v-pills-tab .nav-link { background-color: rgba(216,226,231,0.35); text-align: left; color: var(--darkTeal);  font-weight: 500; }
 	#v-pills-tab .nav-link.active,
@@ -187,15 +187,15 @@ legend { float: none; font-size: inherit; }
 
 
 /* === CERTIFICATIONS === */
-.no-webp .certificationsCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .certificationsCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .certificationsCap { background-image: url("/images/MP_Certifications.jpg"); }
+.webp .certificationsCap { background-image: url("/images/MP_Certifications.webp"); }
 .certLists a{ color: var(--darkTeal); font-weight: 500; text-decoration: none; transition: all 0.25s ease; }
 	.certLists a:hover { text-decoration: underline; color: var(--maincta); }
 .certLists h4 { font-weight: 600; font-size: 1.125em; }
 
 /* === ABOUT US === */
-.no-webp .aboutCap { background-image: url("/images/about-banner.jpeg"); }
-.webp .aboutCap { background-image: url("/images/about-banner.webp"); }
+.no-webp .aboutCap { background-image: url("/images/MP_About.jpg"); }
+.webp .aboutCap { background-image: url("/images/MP_About.webp"); }
 .aboutmvp { background-color: #03465b; }
 .amvpeach { background-color: #013647; padding: 2.1em 1.85em 1.4em; }
 .amvIcon { fill: var(--maincta); max-width: 90px; }
@@ -205,8 +205,8 @@ legend { float: none; font-size: inherit; }
 .aboutJoin { background-size: cover;  }
 .aboutJoin h1 { color: #FFF; font-size: 1.875em; }	
 .aboutJoin p { color: #FFF; }	
-.no-webp .aboutJoin { background-image: url("https://via.placeholder.com/1800x600/444/666?text=image"); }
-.webp .aboutJoin{ background-image: url("https://via.placeholder.com/1800x600/444/666?text=image"); }
+.no-webp .aboutJoin { background-image: url("/images/MP_CTA_Careers.jpg"); }
+.webp .aboutJoin{ background-image: url("/images/MP_CTA_Careers.webp"); }
 
 .aboutStaff { position: relative; display: grid; text-decoration: none; background-position: center center; background-size: cover; aspect-ratio: 1; align-content: space-between; transition:all 0.2s ease; background-color: rgb( 3 70 91 / 0 ); }
 .aboutStaff:hover { background-color: rgb( 3 70 91 / .75 ); background-blend-mode: darken; }
@@ -226,43 +226,43 @@ legend { float: none; font-size: inherit; }
 .aboutStaff:hover > * { opacity: 1; }
 
 /* === FACILITIES === */
-.no-webp .facilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .facilitiesCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .facilitiesCap { background-image: url("/images/MP_Facilities.jpg"); }
+.webp .facilitiesCap { background-image: url("/images/MP_Facilities.webp"); }
 
 /* === REQUEST A QUOTE === */
-.no-webp .raqCap { background-image: url("/images/raq-banner.jpeg"); }
-.webp .raqCap { background-image: url("/images/raq-banner.webp"); }
+.no-webp .raqCap { background-image: url("/images/MP_Quote.jpg"); }
+.webp .raqCap { background-image: url("/images/MP_Quote.webp"); }
 .afRaQ h1 { color: #FFF; }
 .afRaQ p { color: #FFF; }
 .lsycq { font-size: 1.75em; }
 
-.no-webp .afRaQ { background-image: url("/images/request-a-quote-bg.jpeg"); background-size: cover; }
-.webp .afRaQ { background-image: url("/images/request-a-quote-bg.webp"); background-size: cover; }
+.no-webp .afRaQ { background-image: url("/images/MP_CTA_Quote.jpg"); background-size: cover; }
+.webp .afRaQ { background-image: url("/images/MP_CTA_Quote.webp"); background-size: cover; }
 .raqFormTitles { font-size: 1.125em; font-weight: 500; }
 
 /* === CONTACT US === */
-.no-webp .contactCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .contactCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .contactCap { background-image: url("/images/MP_Contact.jpg"); }
+.webp .contactCap { background-image: url("/images/MP_Contact.webp"); }
 .contactUsMsg { font-size:1.25em; }
 .calloutHQ { background-color: rgba(216,226,231,0.45); }
 .contactWrapper h2 { font-size: 1.5em; }
 .chqContact { display:grid; grid-template-columns: auto auto; }
 
 /* === CAREERS === */
-.no-webp .careersCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .careersCap { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .careersCap { background-image: url("/images/MP_Careers.jpg"); }
+.webp .careersCap { background-image: url("/images/MP_Careers.webp"); }
 .benefitsList { -webkit-column-count: 2; -webkit-column-gap: 2em; -moz-column-count: 2; -moz-column-gap: 2em; column-count: 2; column-gap: 2em; }
 .careersList { background-color: rgb(216 226 231 / 0.25); }
 .afApplication { background-position: center center; }
-.no-webp .afApplication { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
-.webp .afApplication { background-image: url("https://via.placeholder.com/1800x600/444/777?text=image"); }
+.no-webp .afApplication { background-image: url("/images/MP_CTA_Careers.jpg"); }
+.webp .afApplication { background-image: url("/images/MP_CTA_Careers.webp"); }
 
 .opbtn { display: inline-grid; grid-template-columns: auto 1em; column-gap: 0.8em; align-items: center; }
 .afApplication h1, .afApplication p { color: #FFF; }
 
 /* === PRIVACY POLICY === */
-.no-webp .privacyCap { background-image: url("/images/privacy-banner.jpeg"); }
-.webp .privacyCap { background-image: url("/images/privacy-banner.webp"); }
+.no-webp .privacyCap { background-image: url("/images/MP_Privacy.jpg"); }
+.webp .privacyCap { background-image: url("/images/MP_Privacy.webp"); }
 
 /* === FOOTER === */
 footer#footer { background-color: var(--darkTeal); }
