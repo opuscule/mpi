@@ -23,7 +23,7 @@ h5.subTitle { font-size: 1.05em; font-weight: 900; text-transform: uppercase; co
 .navbar-brand img { filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); width: 90%;  }
 
 .navbar-nav .nav-item a { color: #FFF; text-decoration: none; padding: 4px 0; transition: all 0.25s ease; }
-.navbar-nav .nav-item.active a { border-bottom: 3px solid var(--maincta); color: var(--maincta); }
+.navbar-nav .nav-item.active a { border-bottom: 3px solid var(--maincta); color: #FFF; }
 .navbar-nav .nav-item a:hover { color: var(--maincta); }
 
 .navbar-nav .nav-item .btn { padding:0.5em 2em; }
@@ -168,7 +168,7 @@ legend { float: none; font-size: inherit; }
 	.capCallout > .row { align-items: center; }
 	.capCallout p a { color: var(--darkTeal); font-weight: 500; text-decoration: none; transition: all 0.25s ease; }
 	.capCallout p a:hover { text-decoration: underline; color: var(--maincta); }
-.capCalloutIcon { fill:#138ECE; display: block; max-width: 8rem; }
+.capCalloutIcon { fill:#138ECE; display: block; max-width: 5.5rem; }
 
 
 
