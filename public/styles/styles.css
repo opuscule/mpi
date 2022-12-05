@@ -273,6 +273,10 @@ legend { float: none; font-size: inherit; }
 .opbtn { display: inline-grid; grid-template-columns: auto 1em; column-gap: 0.8em; align-items: center; }
 .afApplication h1, .afApplication p { color: #FFF; }
 
+@media screen and (max-width:540px) {
+	.careersCap { background-position: 70% center; }
+}
+
 /* === PRIVACY POLICY === */
 .no-webp .privacyCap { background-image: url("/images/MP_Privacy.jpg"); }
 .webp .privacyCap { background-image: url("/images/MP_Privacy.webp"); }
