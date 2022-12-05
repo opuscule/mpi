@@ -249,8 +249,8 @@ legend { float: none; font-size: inherit; }
 .afRaQ p { color: #FFF; }
 .lsycq { font-size: 1.75em; }
 
-.no-webp .afRaQ { background-image: url("/images/MP_CTA_Quote.jpg"); background-size: cover; }
-.webp .afRaQ { background-image: url("/images/MP_CTA_Quote.webp"); background-size: cover; }
+.no-webp .afRaQ { background-image: url("/images/MP_CTA_Quote.jpg"); background-size: cover; background-position: center center; }
+.webp .afRaQ { background-image: url("/images/MP_CTA_Quote.webp"); background-size: cover; background-position: center center; }
 .raqFormTitles { font-size: 1.125em; font-weight: 500; }
 
 /* === CONTACT US === */
