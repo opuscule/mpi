@@ -44,6 +44,7 @@ h5.subTitle { font-size: 1.05em; font-weight: 900; text-transform: uppercase; co
 	}
 }
 
+
 .btn-primary { background-color: var(--maincta); border-color: var(--maincta); border-width: 2px; }
 .btn-primary:hover,
 .btn-check:focus+.btn-primary, 
@@ -136,6 +137,11 @@ legend { float: none; font-size: inherit; }
 	.no-webp .homeCap, .webp .homeCap { background-position: 84% 50%; }
 	.contentLeadIn { padding-top: 0.5em; }
 	.contentLeadIn h1 { font-size: 1.85em; }
+}
+
+@media screen and ( max-width:415px ) {
+	.navbar>.container { display:grid; grid-template-columns: 80% 20%; }	
+	.navbar-collapse { grid-column: 1 / 3; }
 }
 /* === CAPABILITIES === */
 .no-webp .capabilitiesCap { background-image: url("/images/MP_Capabilities.jpg"); }
