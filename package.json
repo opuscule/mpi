@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/opuscule/mpi#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "@sherby/eleventy-plugin-files-minifier": "^1.1.1"
   }
 }
