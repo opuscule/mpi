@@ -262,16 +262,42 @@ legend { float: none; font-size: inherit; }
 .chqContact { display:grid; grid-template-columns: auto auto; }
 
 /* === CAREERS === */
+.topNav.careersCap { display: flex; flex-direction: column; }
 .no-webp .careersCap { background-image: url("/images/MP_Careers.jpg"); }
 .webp .careersCap { background-image: url("/images/MP_Careers.webp"); }
+.careersBannerWrapper { width: 100%; }
+.careersBannerCallout { background-color: rgba(3,70,91,0.85); border-radius: 4px; }
+.careersBannerCallout h1 { color: #FFF; }
+.careersBannerCallout p { color: #FFF; font-size: 1.1em; }
 .benefitsList { -webkit-column-count: 2; -webkit-column-gap: 2em; -moz-column-count: 2; -moz-column-gap: 2em; column-count: 2; column-gap: 2em; }
 .careersList { background-color: rgb(216 226 231 / 0.25); }
-.afApplication { background-position: center center; }
-.no-webp .afApplication { background-image: url("/images/MP_CTA_Careers.jpg"); }
-.webp .afApplication { background-image: url("/images/MP_CTA_Careers.webp"); }
+
+#careers-toc { position: sticky; top: 2rem; }
+#careers-toc .nav-link { background-color: rgba(216,226,231,0.35); text-align: left; color: var(--darkTeal); font-weight: 500; }
+	#careers-toc .nav-link.active,
+	#careers-toc .nav-link:hover { background-color: var(--maincta); color: #fff; }
+#careers-toc .nav-link .capArrow {
+  border: solid #b9b9b9;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 1.4em; margin-left: 0.3em;
+  transition: all 0.3s ease;
+}
+#careers-toc .nav-link:hover .capArrow { border-color: #FFF; }
+#careers-toc .nav-link.active .capArrow {
+	border-color: #fff;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+.careersJumpTo ul li { margin-bottom: 0.5em; }
+.careersJumpTo a { color: var(--darkTeal); font-weight: 500; }
+.careersDivider { margin: 2.5rem 0; }
+.benefitsIcon { display: block; max-width: 100px; width: 100%; height: auto; margin-bottom: 1rem; }
 
 .opbtn { display: inline-grid; grid-template-columns: auto 1em; column-gap: 0.8em; align-items: center; }
-.afApplication h1, .afApplication p { color: #FFF; }
 
 @media screen and (max-width:540px) {
 	.careersCap { background-position: 70% center; }
